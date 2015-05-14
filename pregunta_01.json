@@ -1,0 +1,17 @@
+[{
+    "tipo": "quien", 
+    "pregunta": "¿Quién es la Presidenta?",
+    "opciones": ["CFK", "Lilita", "Mirtha"],
+    "respuesta": "CFK",
+    "sugerencias": ["salir a la calle",
+                    "http://www.lavoz.com.ar"],
+    "nivel": 1
+},
+{
+    "tipo": "tipo2", 
+    "pregunta": "¿?",
+    "opciones": ["", "", ""],
+    "respuesta": "",
+    "sugerencias": ["", "", ""],
+    "nivel": 1 
+}]
