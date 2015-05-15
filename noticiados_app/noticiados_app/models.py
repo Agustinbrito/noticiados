@@ -25,7 +25,7 @@ STATE_PATH = os.path.join(PROJECT_DIR, "state.json")
 ESTADO_INICIAL = {
             'vidas': 3,
             'nivel': 1,
-            'pregunta': 0,
+            'pregunta': -1,
             'correctas': []
         }
 

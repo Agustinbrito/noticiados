@@ -3,6 +3,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from models import *
+# from django.contrib import messages
 
 
 #  Vistas
@@ -14,14 +15,29 @@ def preguntando(request, respuesta=None):
     # Si respuesta es no nulo
     # viene de una pregunta anterior (ver state)
     state =  get_state()
-    if respuesta:
-        pregunta = PREGUNTAS[state['pregunta']]
-        correcta = bool(pregunta["opciones"][int(respuesta)] == pregunta["respuesta"])
-
     state['pregunta'] += 1
     pregunta = PREGUNTAS[state['pregunta']]
     save_state(state)
     return render(request, 'preguntando.html', {'pregunta': pregunta, 'state': state})
+
+def respuesta(request, respuesta):
+    # Si respuesta es no nulo
+    # viene de una pregunta anterior (ver state)
+    state =  get_state()
+    pregunta = PREGUNTAS[state['pregunta']]
+
+    respuesta = pregunta["opciones"][int(respuesta)]
+    correcta = bool(respuesta.lower() == pregunta["respuesta"].lower())
+    if not correcta:
+        state['vidas'] -= 1
+    state['correctas'].append(correcta) 
+
+    fin = bool(len(state['correctas']) == N_PREGS_POR_NIVEL)
+    save_state(state)
+    return render(request, 'respuesta.html', {'pregunta': pregunta, 'state': state,
+                                                'correcta': correcta, 'fin': fin,
+                                                'respuesta': respuesta})
+
 
 def end(request):
     return render(request, 'end.html', {})

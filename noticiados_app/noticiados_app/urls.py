@@ -7,6 +7,6 @@ urlpatterns = patterns('',
     # Examples:
     url(r'^start/$', 'noticiados_app.views.start', name='start'),
     url(r'^preguntando/$', 'noticiados_app.views.preguntando', name='preguntando'),
-    url(r'^preguntando/(?P<respuesta>\d+)/$', 'noticiados_app.views.preguntando', name='preguntando'),
+    url(r'^respuesta/(?P<respuesta>\d+)/$', 'noticiados_app.views.respuesta', name='respuesta'),
     url(r'^end/$', 'noticiados_app.views.end', name='end'),
 )
