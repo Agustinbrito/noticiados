@@ -7,7 +7,7 @@ from settings import PROJECT_DIR
 
 
 # Preguntas
-PREGUNTAS_PATH = os.path.join(PROJECT_DIR, "preguntas2.json")
+PREGUNTAS_PATH = os.path.join(PROJECT_DIR, "preguntas.json")
 PREGUNTAS = json.load(open(PREGUNTAS_PATH))
 # shuffle(PREGUNTAS)
 
