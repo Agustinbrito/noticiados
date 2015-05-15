@@ -48,30 +48,26 @@
 			</h3>
 			<div class="row clearfix", style="text-align: center">
 				<div class="col-md-4 column">
-                VIDAS
+                VIDAS: {{ estado.vidas }}
 				</div>
 				<div class="col-md-4 column">
-                NIVEL
+                NIVEL: {{ estado.nivel }}
 				</div>
 				<div class="col-md-4 column">
 				TIEMPO
                 </div>
 			</div>
 			<div class="row clearfix" style="text-align: center">
-				<div class="col-md-12 column myButton">
+				<div class="col-md-12 column pregunta">
                 {{ pregunta.pregunta }}
 				</div>
 			</div>
 			<div class="row clearfix" style="text-align: center">
-				<div class="col-md-4 column">
-				OPCION 1
+            {% for opcion in pregunta.opciones %}
+				<div class="col-md-4 column opcion">
+				{{ opcion }}
                 </div>
-				<div class="col-md-4 column">
-				OPCION 2
-                </div>
-				<div class="col-md-4 column">
-				OPCION 3
-                </div>
+            {% endfor %}            
 			</div>
 		</div>
 	</div>

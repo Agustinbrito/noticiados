@@ -1,0 +1,277 @@
+﻿[
+  {
+    "tipo": "quien",
+    "pregunta": "¿Quién es la Presidenta?",
+    "opciones": [
+      "CFK",
+      "Lilita",
+      "Mirtha"
+    ],
+    "respuesta": "CFK",
+    "sugerencias": [
+      "salir a la calle",
+      "http://www.lavoz.com.ar"
+    ],
+    "nivel": 1
+  },
+  {
+    "tipo": "que",
+    "pregunta": "¿qué gestión promulgó la ley de matrimonio igualitario?",
+    "opciones": [
+      "1ª gestión CFK",
+      "Néstor Kirchner",
+      "2ª gestión CFK"
+    ],
+    "respuesta": "1ª gestión CFK",
+    "nivel": 1
+  },
+  {
+    "tipo": "qué",
+    "pregunta": "¿A qué partido pertenece Recalde, candidato a gobernador?",
+    "opciones": [
+      "FPV",
+      "PRO",
+      "ARI"
+    ],
+    "respuesta": "FPV",
+    "nivel": 2
+  },
+  {
+    "tipo": "quién",
+    "pregunta": "¿Qué político argentino dijo: \"la diabetes es una enfermedad de gente de alto poder adquisitivo porque son sedentarios y comen mucho\"?",
+    "opciones": [
+      "Lauriela Michetti",
+      "CFK",
+      "Lilita Carrió"
+    ],
+    "respuesta": "CFK",
+    "nivel": 2
+  },
+  {
+    "tipo": "quien",
+    "pregunta": "¿Quien es el gobernador de Entre Rios?",
+    "opciones": [
+      "Uribarri",
+      "Larreta",
+      "Sapag"
+    ],
+    "respuesta": "Uribarri",
+    "nivel": 2
+  },
+  {
+    "tipo": "qué",
+    "pregunta": "¿Qué gobernación mantiene el controvertido \"Código de Faltas\"?",
+    "opciones": [
+      "Gobernacion De La Sota (Córdoba)",
+      "Gobernación Mauricio Macri (Buenos Aires)",
+      "Gobernación Gildo Insfrán (Formosa)"
+    ],
+    "respuesta": "Gobernacion De La Sota (Córdoba)",
+    "nivel": 2
+  },
+  {
+    "tipo": "quién",
+    "pregunta": "¿Quién denunció penalmente a Néstor Kirchner por supuesta asociación ilícita?",
+    "opciones": [
+      "Liliana Olivero",
+      "Lilita Carrió",
+      "Victoria Donda"
+    ],
+    "respuesta": "Lilita Carrió",
+    "nivel": 2
+  },
+  {
+    "tipo": "qué",
+    "pregunta": "¿Qué partido creó la Policia Metropolitana?",
+    "opciones": [
+      "PRO",
+      "FPV",
+      "FAP"
+    ],
+    "respuesta": "PRO",
+    "nivel": 1
+  },
+  {
+    "tipo": "qué",
+    "pregunta": "¿Qué partidos denunciaron la permanencia de Escuelas Contenedores en la Provincia de Córdoba?",
+    "opciones": [
+      "FPV Y ARI",
+      "Frente Amplio Progresista Y UCR",
+      "Partido Socialista Y Partido Justicialista"
+    ],
+    "respuesta": "Frente Amplio Progresista y UCR",
+    "nivel": 2
+  },
+  {
+    "tipo": "quién",
+    "pregunta": "¿Quién es Gils Carbó?",
+    "opciones": [
+      "Fiscal de la Nación",
+      "Diputada Nacional",
+      "Procuradora General de la Nación"
+    ],
+    "respuesta": "Procuradora General de la Nación",
+    "nivel": 2
+  },
+  {
+    "tipo": "quién",
+    "pregunta": "¿Quién dijo \"me quiero ir\" al consultarle por la inflación argentina?",
+    "opciones": [
+      "Lorenzino",
+      "Hermes Binner",
+      "Timerman"
+    ],
+    "respuesta": "Lorenzino",
+    "nivel": 2
+  },
+  {
+    "tipo": "quién",
+    "pregunta": "¿Hermes Binner es un Diputado Nacional de partido?",
+    "opciones": [
+      "Partido Justicialista",
+      "Partido Obrero",
+      "Partido Socialista"
+    ],
+    "respuesta": "Partido Socialista",
+    "nivel": 1
+  },
+  {
+    "tipo": "quién",
+    "pregunta": "¿Quien dijo \"Mi viejo me daba a cintazos y yo salí un buen tipo\"?",
+    "opciones": [
+      "Jorge Capitanich",
+      "Sergio Massa",
+      "Miguel del Sel"
+    ],
+    "respuesta": "Miguel del Sel",
+    "nivel": 2
+  },
+  {
+    "tipo": "quién",
+    "pregunta": "¿Juan Schiaretti aseguró que si gana las elecciones no derogará la ley que difiere el pago de aumento a las jubilaciones?",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuesta": "falso",
+    "nivel": 2
+  },
+  {
+    "tipo": "quién",
+    "pregunta": "¿Eduardo Acastello aseguró que, si gana la gobernación en Córdoba, eliminará la figura del \"merodeo\" del Código de Faltas?",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuesta": "verdadero",
+    "nivel": 2
+  },
+  {
+    "tipo": "quién",
+    "pregunta": "¿Quién es el candidato a gobernador de 'Córdoba Podemos'?",
+    "opciones": [
+      "Eduardo Acastello",
+      "Juan Schiaretti",
+      "Raúl Gómez"
+    ],
+    "respuesta": "Acastello",
+    "nivel": 2
+  },
+  {
+    "tipo": "quién",
+    "pregunta": "Sofía Gatica integra la fórmula del MST para la intendencia de la ciudad de Córdoba",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuesta": "falso",
+    "nivel": 2
+  },
+  {
+    "tipo": "quién",
+    "pregunta": "¿Quién dijo: \"Desafío a los otros candidatos (a gobernador)  a firmar un acta para derogar la 10.078 y la tasa vial. Mañana yo voy a firmar un acta compromiso con los gremios.\" ",
+    "opciones": [
+      "Juan Schiaretti",
+      "Eduardo Acastello",
+      "Ramón Díaz",
+      "Luis Juez"
+    ],
+    "respuesta": "",
+    "nivel": 2
+  },
+  {
+    "tipo": "quién",
+    "pregunta": "Martín Llaryora es el candidato a vice gobernador de Unión por Córdoba. El dirigente fue intendente de Villa María ",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuesta": "falso",
+    "nivel": 1
+  },
+  {
+    "tipo": "qué",
+    "pregunta": "¿Qué se vota en Córdoba el 5 de julio ",
+    "opciones": [
+      "gobernador, vice y legisladores",
+      "gobernador, vice y concejales",
+      "gobernador"
+    ],
+    "respuesta": "gobernador, vice y legisladores",
+    "nivel": 1
+  },
+  {
+    "tipo": "qué",
+    "pregunta": "El resultado de las PASO, ¿define quienes ocuparán cargos en el Congreso? ",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuesta": "Falso",
+    "nivel": 1
+  },
+  {
+    "tipo": "qué",
+    "pregunta": "¿Cuál de los siguientes políticos NO es precandidato para las elecciones argentinas 2015? ",
+    "opciones": [
+      "Víctor Gennaro",
+      "Máximo Kirchner",
+      "Jorge Altamira"
+    ],
+    "respuesta": "Máximo Kirchner",
+    "nivel": 1
+  },
+  {
+    "tipo": "qué",
+    "pregunta": "¿Para qué sirven las PASO? ",
+    "opciones": [
+      "Para definir los gobernates",
+      "Para elegir candidatos al interior de los partidos políticos",
+      "Únicamente para definir qué se elegirá en octubre"
+    ],
+    "respuesta": "Para elegir a los candidatos al interior de los partidos políticos",
+    "nivel": 1
+  },
+  {
+    "tipo": "qué",
+    "pregunta": "¿Qué candidato NO participo en 'Bailando 2015'? ",
+    "opciones": [
+      "Scioli",
+      "Massa",
+      "Ernesto Sanz"
+    ],
+    "respuesta": "Ernesto Sanz",
+    "nivel": 1
+  },
+  {
+    "tipo": "qué",
+    "pregunta": "¿Quien propuso, en caso de ser elegido, dejar sin efecto la restriccion a la compra de dólares? ",
+    "opciones": [
+      "Massa",
+      "Macri",
+      "Taiana"
+    ],
+    "respuesta": "Macri",
+    "nivel": 1
+  }
+]

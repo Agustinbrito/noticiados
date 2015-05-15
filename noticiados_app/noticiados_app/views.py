@@ -4,25 +4,25 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 import os
-import json
+import simplejson as json
 
+from random import shuffle
+from settings import PROJECT_DIR
 
-PREGUNTAS_PATH = "/home/pablo/Proyectos/noticiados/preguntas/"
+PREGUNTAS_PATH = os.path.join(PROJECT_DIR, "preguntas.json")
+PREGUNTAS = json.load(open(PREGUNTAS_PATH))
+shuffle(PREGUNTAS)
 
-def cargar_preguntas():
-    pregs = []
-    # for f in os.listdir(PREGUNTAS_PATH):
-    for f in ['pregunta_01.json']:
-        pregs += json.load(open(PREGUNTAS_PATH + f))
-    return pregs
+ESTADO_INICIAL = {
+            'vidas': 3,
+            'nivel': 1,
+        }
 
-PREGUNTAS = cargar_preguntas()
+def start(request):
+    return render(request, 'start.html', {})
 
-def home(request):
-    return render(request, 'base.html', {})
+def preguntando(request, pregunta=PREGUNTAS[0], estado=ESTADO_INICIAL):
+    return render(request, 'preguntando.html', {'pregunta': pregunta, 'estado': estado})
 
-def preguntando(request):
-    return HttpResponse(PREGUNTAS)
-
-def fin(request):
-    return HttpResponse("A jugar!")
+def end(request):
+    return render(request, 'end.html', {})
