@@ -1,0 +1,253 @@
+﻿[
+    {
+        "tipo": "DEL DICHO AL HECHO",
+        "pregunta": "¿Qué gestión promulgó la ley de matrimonio igualitario?",
+        "opciones": [
+            "1ª gestión CFK",
+            "Néstor Kirchner",
+            "2ª gestión CFK"
+        ],
+        "respuesta": "1ª gestión CFK",
+        "sugerencias": {
+            "Si querés ver la Ley, clickeá acá:": "http://www.infoleg.gov.ar/infolegInternet/anexos/165000-169999/169608/norma.html"
+        },
+        "nivel": 1
+    },
+    {
+        "tipo": "IDENTIKIT",
+        "pregunta": "¿A qué partido político pertenece Mariano Recalde, candidato a jefe de Gobierno porteño?",
+        "opciones": [
+            "ARI",
+            "PRO",
+            "FPV"
+        ],
+        "respuesta": "FPV",
+        "sugerencias": {
+            "Conocé más sobre los candidatos en CABA:": "http://www.buenosaires.gob.ar/justiciayseguridad/elecciones"
+        },
+        "nivel": 2
+    },
+    {
+        "tipo": "IDENTIKIT",
+        "pregunta": "¿Quien es el gobernador de Entre Rios?",
+        "opciones": [
+            "Uribarri",
+            "Larreta",
+            "Sapag"
+        ],
+        "respuesta": "Uribarri",
+        "sugerencias": {
+            "mirá las autoridades de Entre Ríos acá": "https://www.entrerios.gov.ar/index.php?codigo=31&codsubmenu=48&modulo=texto "
+        },
+        "nivel": 2
+    },
+    {
+        "tipo": "DEL DICHO AL HECHO",
+        "pregunta": "¿Qué gobernación mantiene el controvertido \"Código de Faltas\"?",
+        "opciones": [
+            "Gobernación De La Sota (Córdoba)",
+            "Gobernación Mauricio Macri (Buenos Aires)",
+            "Gobernación Gildo Insfrán (Formosa)"
+        ],
+        "respuesta": "Gobernación De La Sota (Córdoba)",
+        "sugerencias": {
+            "El Código de faltas acá!": "http://web2.cba.gov.ar/web/leyes.nsf/85a69a561f9ea43d03257234006a8594/e0bd40709beaa1dd8325740b005296d9"
+        },
+        "nivel": 1
+    },
+    {
+        "tipo": "DEL DICHO AL HECHO",
+        "pregunta": "¿Qué partido creó la Policia Metropolitana?",
+        "opciones": [
+            "FPV",
+            "PRO",
+            "FAP"
+        ],
+        "respuesta": "PRO",
+        "sugerencias": {
+            "Mirá": "http://www.cedom.gov.ar/es/legislacion/normas/leyes/ley2894.html"
+        },
+        "nivel": 1
+    },
+    {
+        "tipo": "DEL DICHO AL HECHO",
+        "pregunta": "¿Qué partidos denunciaron la permanencia de Escuelas Contenedores en la Provincia de Córdoba?",
+        "opciones": [
+            "FPV Y ARI",
+            "Frente Amplio Progresista Y UCR",
+            "Partido Socialista Y Partido Justicialista"
+        ],
+        "respuesta": "Frente Amplio Progresista y UCR",
+        "sugerencias": {
+            "Proyecto para eliminar Aulas Contenedores": "http://www.cadena3.com.ar/contenido/2014/02/17/125191.asp"
+        },
+        "nivel": 2
+    },
+    {
+        "tipo": "IDENTIKIT",
+        "pregunta": "¿Quién es Gils Carbó?",
+        "opciones": [
+            "Fiscal de la Nación",
+            "Diputada Nacional",
+            "Procuradora General de la Nación"
+        ],
+        "respuesta": "Procuradora General de la Nación",
+        "sugerencias": {
+            "Chusmeá las Autoridades Nacionales acá": "http://www.argentina.gob.ar/pais/65-autoridades-nacionales.php"
+        },
+        "nivel": 2
+    },
+    {
+        "tipo": "QUIEN LO DIJO?",
+        "pregunta": "¿Quién dijo \"me quiero ir\" al consultarle por la inflación argentina?",
+        "opciones": [
+            "Lorenzino",
+            "Hermes Binner",
+            "Timerman"
+        ],
+        "respuesta": "Lorenzino",
+        "sugerencias": {
+            "Video #Lorenzino #ME QUIERO IR": "https://www.youtube.com/watch?v=EkHGLkCYnMY"
+        },
+        "nivel": 1
+    },
+    {
+        "tipo": "IDENTIKIT",
+        "pregunta": "¿Hermes Binner es un Diputado Nacional de qué partido?",
+        "opciones": [
+            "Partido Justicialista",
+            "Partido Obrero",
+            "Partido Socialista"
+        ],
+        "respuesta": "Partido Socialista",
+        "sugerencias": {
+            "Página Oficial de Binner": "http://www.hermesbinner.com.ar/"
+        },
+        "nivel": 2
+    },
+    {
+        "tipo": "QUIEN LO DIJO?",
+        "pregunta": "\"Mi viejo me daba a cintazos y yo salí un buen tipo\"",
+        "opciones": [
+            "Jorge Capitanich",
+            "Miguel Del Sel",
+            "Massa"
+        ],
+        "respuesta": "Miguel del Sel",
+        "sugerencias": {
+            "Acá está el VIDEO!": "http://www.infobae.com/2015/05/05/1726653-del-sel-mi-viejo-me-metia-unos-cintazos-espectaculares-y-yo-sali-buen-tipo"
+        },
+        "nivel": 1
+    },
+    {
+        "tipo": "ZONA DE PROMESAS",
+        "pregunta": "Schiaretti dijo que si gana las elecciones mantendrá el pago diferido de aumento a las jubilaciones",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta": "Falso",
+        "sugerencias": {
+            "Clikeá el VIDEO!": "http://www.cadena3.com/contenido/2015/04/08/143748.asp"
+        },
+        "nivel": 2
+    },
+    {
+        "tipo": "IDENTIKIT",
+        "pregunta": "¿Quién es el candidato a gobernador de 'Córdoba Podemos'?",
+        "opciones": [
+            "Acastello",
+            "Schiaretti",
+            "Gómez"
+        ],
+        "respuesta": "Acastello",
+        "sugerencias": {
+            "Chusmeá el video": "https://www.youtube.com/watch?v=AEa-rDtq7Zc"
+        },
+        "nivel": 1
+    },
+    {
+        "tipo": "IDENTIKIT",
+        "pregunta": "Sofía Gatica integra la fórmula del MST para la intendencia de la ciudad de Córdoba",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta": "Falso",
+        "sugerencias": {
+            "Info sobre el MST y Sofía Gatica": "http://cordoba.mst.org.ar"
+        },
+        "nivel": 2
+    },
+    {
+        "tipo": "QUIEN LO DIJO?",
+        "pregunta": "\"Desafío a los otros candidatos (a gobernador)  a firmar un acta de compromiso para derogar la tasa vial...\" ",
+        "opciones": [
+            "Schiaretti",
+            "Acastello",
+            "Ramón Díaz",
+            "Luis Juez"
+        ],
+        "respuesta": "Acastello",
+        "sugerencias": {
+            "Entrevista a Acastello": "http://www.cadena3.com/contenido/2015/04/09/143866.asp"
+        },
+        "nivel": 2
+    },
+    {
+        "tipo": "ELECCIONES",
+        "pregunta": "Qué se vota el 5 de julio en Córdoba? ",
+        "opciones": [
+            "Gobernador",
+            "Gobernador Y Consejales",
+            "Gobernador, Vice y Legisladores"
+        ],
+        "respuesta": "Gobernador, Vice y Legisladores",
+        "sugerencias": {
+            "Clickeá si querés saber más": "http://www.elecciones.gov.ar/admin/ckfinder/userfiles/files/Decreto-n233_15-Cordoba.pdf"
+        },
+        "nivel": 1
+    },
+    {
+        "tipo": "ELECCIONES",
+        "pregunta": "Para qué sirven las PASO? ",
+        "opciones": [
+            "Para definir los gobernates",
+            "Para elegir candidatos dentro de cada partido",
+            "Únicamente para definir tendencias"
+        ],
+        "respuesta": "Para elegir candidatos dentro de cada partido",
+        "sugerencias": {
+            "Toda la info sobre las PASO acá": "http://elecciones.gob.ar/regimen/primarias.htm"
+        },
+        "nivel": 1
+    },
+    {
+        "tipo": "IDENTIKIT",
+        "pregunta": "Qué candidato a Presidente NO participó 'Bailando 2015'? ",
+        "opciones": [
+            "Scioli",
+            "Randazzo",
+            "Massa"
+        ],
+        "respuesta": "Randazzo",
+        "sugerencias": {
+            "Canal oficial de Randazzo:": "https://www.youtube.com/watch?v=fxlntpDzRCc"
+        },
+        "nivel": 1
+    },
+    {
+        "tipo": "QUIEN LO DIJO?",
+        "pregunta": "Quién propuso liberar la compra de dólares, en caso de ser elegido Presidente? ",
+        "opciones": [
+            "Massa",
+            "Macri",
+            "Taiana"
+        ],
+        "respuesta": "Macri",
+        "sugerencias": {
+            "": ""
+        },
+        "nivel": 2
+    }
+]

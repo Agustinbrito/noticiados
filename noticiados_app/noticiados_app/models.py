@@ -9,14 +9,17 @@ from settings import PROJECT_DIR
 
 
 # Preguntas
-PREGUNTAS_PATH = os.path.join(PROJECT_DIR, "preguntas.json")
+# PREGUNTAS_PATH = os.path.join(PROJECT_DIR, "preguntas.json")
+PREGUNTAS_PATH = os.path.join(PROJECT_DIR, "preguntas2.json")
 PREGUNTAS = json.load(open(PREGUNTAS_PATH))
-# shuffle(PREGUNTAS)
+shuffle(PREGUNTAS)
 
-PREGUNTAS_NIVEL = [
-    [p for p in PREGUNTAS if p['nivel']==1],
-    [p for p in PREGUNTAS if p['nivel']==2]
-]
+# PREGUNTAS_NIVEL = [
+#     [p for p in PREGUNTAS if p['nivel']==1],
+#     [p for p in PREGUNTAS if p['nivel']==2]
+# ]
+
+PREGUNTAS_NIVEL = [PREGUNTAS, PREGUNTAS]
 
 N_PREGS_POR_NIVEL = 5
 
