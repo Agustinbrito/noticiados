@@ -115,7 +115,7 @@
   },
   {
     "tipo": "quién",
-    "pregunta": "¿Quién dijo \"me quiero ir\" al consultarle por la inflación argentina?",
+    "pregunta": "¿Quién dijo \"me quiero ir\" al ser consultado por la inflación argentina?",
     "opciones": [
       "Lorenzino",
       "Hermes Binner",
@@ -189,7 +189,7 @@
   },
   {
     "tipo": "quién",
-    "pregunta": "¿Quién dijo: \"Desafío a los otros candidatos (a gobernador)  a firmar un acta para derogar la 10.078 y la tasa vial. Mañana yo voy a firmar un acta compromiso con los gremios.\" ",
+    "pregunta": "¿Quién dijo lo siguiente?:\n \"Desafío a los otros candidatos (a gobernador)  a firmar un acta para derogar la 10.078 y la tasa vial. Mañana yo voy a firmar un acta compromiso con los gremios.\" ",
     "opciones": [
       "Juan Schiaretti",
       "Eduardo Acastello",
@@ -211,7 +211,7 @@
   },
   {
     "tipo": "qué",
-    "pregunta": "¿Qué se vota en Córdoba el 5 de julio ",
+    "pregunta": "¿Qué se vota en Córdoba el 5 de julio?",
     "opciones": [
       "gobernador, vice y legisladores",
       "gobernador, vice y concejales",
