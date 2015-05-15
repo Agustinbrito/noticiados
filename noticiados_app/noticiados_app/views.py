@@ -11,7 +11,8 @@ PREGUNTAS_PATH = "/home/pablo/Proyectos/noticiados/preguntas/"
 
 def cargar_preguntas():
     pregs = []
-    for f in os.listdir(PREGUNTAS_PATH):
+    # for f in os.listdir(PREGUNTAS_PATH):
+    for f in ['pregunta_01.json']:
         pregs += json.load(open(PREGUNTAS_PATH + f))
     return pregs
 

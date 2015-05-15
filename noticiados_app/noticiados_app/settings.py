@@ -7,20 +7,12 @@ https://docs.djangoproject.com/en/1.6/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.6/ref/settings/
 """
+from os.path import dirname, join, abspath
+PROJECT_DIR = abspath(join(dirname(__file__), "../"))
 
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-import os
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 
-PROJECT_ROOT = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), os.pardir))
 PACKAGE_ROOT = os.path.abspath(os.path.dirname(__file__))
-
-
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
@@ -62,6 +54,10 @@ TEMPLATE_LOADERS = [
     "django.template.loaders.app_directories.Loader",
 ]
 
+TEMPLATE_DIRS = [
+    os.path.join(PROJECT_DIR, "noticiados_app/templates")
+]
+
 ROOT_URLCONF = 'noticiados_app.urls'
 
 WSGI_APPLICATION = 'noticiados_app.wsgi.application'
@@ -73,7 +69,7 @@ WSGI_APPLICATION = 'noticiados_app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(PROJECT_DIR, 'db.sqlite3'),
     }
 }
 
@@ -91,15 +87,43 @@ USE_L10N = True
 USE_TZ = True
 
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/1.6/howto/static-files/
-STATIC_ROOT = os.path.join(PROJECT_ROOT, "noticiados_app/static")
+# Absolute filesystem path to the directory that will hold user-uploaded files.
+# Example: "/home/media/media.lawrence.com/media/"
+MEDIA_ROOT = os.path.join(PROJECT_DIR, 'media')
+
+# URL that handles the media served from MEDIA_ROOT. Make sure to use a
+# trailing slash.
+# Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
+MEDIA_URL = '/media/'
+
+# Absolute path to the directory static files should be collected to.
+# Don"t put anything in this directory yourself; store your static files
+# in apps" "static/" subdirectories and in STATICFILES_DIRS.
+# Example: "/home/media/media.lawrence.com/static/"
+STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
+
+# URL prefix for static files.
+# Example: "http://media.lawrence.com/static/"
 STATIC_URL = '/static/'
+# STATIC_URL = 'http://ota.expert/static/'
 
+# Additional locations of static files
 STATICFILES_DIRS = (
-    os.path.join(PROJECT_ROOT, "noticiados_app/static"),
+    # Put strings here, like "/home/html/static" or "C:/www/django/static".
+    # Always use forward slashes, even on Windows.
+    # Don't forget to use absolute paths, not relative paths.
+    os.path.join(PROJECT_DIR, 'noticiados_app/static'),
 )
 
-TEMPLATE_DIRS = (
-    os.path.join(PROJECT_ROOT, 'noticiados_app/templates'),
+# List of finder classes that know how to find static files in
+# various locations.
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+#    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
+
+INSTALLED_APPS = [
+    "noticiados_app",
+    "django.contrib.staticfiles"
+]
