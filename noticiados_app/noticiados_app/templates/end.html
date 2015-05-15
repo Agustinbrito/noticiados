@@ -43,35 +43,44 @@
 <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column">
-			<h3 class="text-center text-primary">
+			<h3 class="text-center text-primary noticiados">
 				Noticiados
 			</h3>
-			<div class="row clearfix", style="text-align: center">
-				<div class="col-md-4 column">
-                VIDAS
-				</div>
-				<div class="col-md-4 column">
-                NIVEL
-				</div>
-				<div class="col-md-4 column">
-				TIEMPO
+            <div class="row clearfix texto", style="text-align: center">
+                <div class="col-md-4 column">
+                VIDAS: {{ state.vidas }}
                 </div>
-			</div>
+                <div class="col-md-4 column">
+                NIVEL: {{ state.nivel }}
+                </div>
+                <div class="col-md-4 column">
+                TIEMPO
+                </div>
+            </div>
 			<div class="row clearfix" style="text-align: center">
-				<div class="col-md-12 column myButton">
-                {{ pregunta.pregunta }}
-				</div>
+                <div class="col-md-4 column puntaje">
+                {{ puntaje|floatformat }}
+                </div>
+
+                {% if aprobado %}
+                <div class="col-md-8 column correcta">
+                    ¡Aprobad@!
+                    Al próximo nivel...
+                </div>
+                {% else %}
+                <div class="col-md-8 column incorrecta">
+                    ¡Desaprobad@!
+                    A seguirse informando...
+                </div>
+                {% endif %} 
 			</div>
-			<div class="row clearfix" style="text-align: center">
-				<div class="col-md-4 column">
-				OPCION 1
+			<div class="row clearfix texto" style="text-align: center">
+                Le erraste en todas estas:
+                {% for pregunta in incorrectas %}
+                <div class="col-md-12 column">
+                <a href="{{ pregunta.tip }}" class="pregunta">{{ pregunta.pregunta }}</a>
                 </div>
-				<div class="col-md-4 column">
-				OPCION 2
-                </div>
-				<div class="col-md-4 column">
-				OPCION 3
-                </div>
+                {% endfor %}              
 			</div>
 		</div>
 	</div>

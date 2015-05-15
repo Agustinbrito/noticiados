@@ -121,10 +121,8 @@
       "Procuradora General de la Nación"
     ],
     "respuesta": "Procuradora General de la Nación",
-    "sugerencias": [
-      "Argentina-Autoridades Nacionales",
-      "http://www.argentina.gob.ar/pais/65-autoridades-nacionales.php"
-    ],    "nivel": 2
+    "sugerencias": { "Argentina-Autoridades Nacionales": "http://www.argentina.gob.ar/pais/65-autoridades-nacionales.php"},
+    "nivel": 2
   },    
   
 {

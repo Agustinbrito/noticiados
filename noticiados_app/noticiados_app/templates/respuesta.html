@@ -43,10 +43,10 @@
 <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column">
-			<h3 class="text-center text-primary">
+			<h3 class="text-center text-primary noticiados">
 				Noticiados
 			</h3>
-			<div class="row clearfix", style="text-align: center">
+			<div class="row clearfix texto", style="text-align: center">
 				<div class="col-md-4 column">
                 VIDAS: {{ state.vidas }}
 				</div>
@@ -82,9 +82,15 @@
 			</div>
             <div class="row clearfix" style="text-align: center">
                 <div class="col-md-12 column">
+                    {% if fin %}
+                    <a href="/end/" class="seguir">
+                    Seguir
+                    </a>
+                    {% else %}
                     <a href="/preguntando/" class="seguir">
                     Seguir
-                    </a>  
+                    </a>
+                    {% endif %}   
                 </div>
             </div>            
 		</div>
