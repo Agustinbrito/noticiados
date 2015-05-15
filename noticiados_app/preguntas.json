@@ -1,6 +1,6 @@
 ﻿[
   {
-    "tipo": "quien",
+    "tipo": "SUJETOS",
     "pregunta": "¿Quién es la Presidenta?",
     "opciones": [
       "CFK",
@@ -8,14 +8,14 @@
       "Mirtha"
     ],
     "respuesta": "CFK",
-    "sugerencias": [
-      "salir a la calle",
-      "http://www.lavoz.com.ar"
-    ],
+    "sugerencias": {
+      "Argentina-Autoridades Nacionales" : "http://www.argentina.gob.ar/pais/65-autoridades-nacionales.php"
+    },
     "nivel": 1
   },
-  {
-    "tipo": "que",
+  
+{
+    "tipo": "GESTIÓN",
     "pregunta": "¿qué gestión promulgó la ley de matrimonio igualitario?",
     "opciones": [
       "1ª gestión CFK",
@@ -23,10 +23,12 @@
       "2ª gestión CFK"
     ],
     "respuesta": "1ª gestión CFK",
+    "sugerencias" : {"Ley de Matrimonio Igualitario" : "http://www.infoleg.gov.ar/infolegInternet/anexos/165000-169999/169608/norma.html"},
     "nivel": 1
   },
-  {
-    "tipo": "qué",
+  
+{
+    "tipo": "SUJETOS",
     "pregunta": "¿A qué partido pertenece Recalde, candidato a gobernador?",
     "opciones": [
       "FPV",
@@ -36,19 +38,22 @@
     "respuesta": "FPV",
     "nivel": 2
   },
-  {
-    "tipo": "quién",
+  
+{
+    "tipo": "DECLARACIONES",
     "pregunta": "¿Qué político argentino dijo: \"la diabetes es una enfermedad de gente de alto poder adquisitivo porque son sedentarios y comen mucho\"?",
     "opciones": [
-      "Lauriela Michetti",
+      "Gabriela Michetti",
       "CFK",
       "Lilita Carrió"
     ],
     "respuesta": "CFK",
+    "sugerencias" : {"Cadena Nacional 13/03/13" : "http://www.casarosada.gob.ar/videos"},
     "nivel": 2
   },
-  {
-    "tipo": "quien",
+  
+{
+    "tipo": "SUJETOS",
     "pregunta": "¿Quien es el gobernador de Entre Rios?",
     "opciones": [
       "Uribarri",
@@ -56,10 +61,12 @@
       "Sapag"
     ],
     "respuesta": "Uribarri",
+    "sugerencias" : {"Autoridades de Entre Ríos" : "https://www.entrerios.gov.ar/index.php?codigo=31&codsubmenu=48&modulo=texto"},
     "nivel": 2
   },
-  {
-    "tipo": "qué",
+  
+{
+    "tipo": "GESTIÓN",
     "pregunta": "¿Qué gobernación mantiene el controvertido \"Código de Faltas\"?",
     "opciones": [
       "Gobernacion De La Sota (Córdoba)",
@@ -69,8 +76,9 @@
     "respuesta": "Gobernacion De La Sota (Córdoba)",
     "nivel": 2
   },
-  {
-    "tipo": "quién",
+  
+{
+    "tipo": "GESTIÓN",
     "pregunta": "¿Quién denunció penalmente a Néstor Kirchner por supuesta asociación ilícita?",
     "opciones": [
       "Liliana Olivero",
@@ -91,8 +99,9 @@
     "respuesta": "PRO",
     "nivel": 1
   },
-  {
-    "tipo": "qué",
+  
+{
+    "tipo": "GESTIÓN",
     "pregunta": "¿Qué partidos denunciaron la permanencia de Escuelas Contenedores en la Provincia de Córdoba?",
     "opciones": [
       "FPV Y ARI",
@@ -102,8 +111,9 @@
     "respuesta": "Frente Amplio Progresista y UCR",
     "nivel": 2
   },
-  {
-    "tipo": "quién",
+  
+{
+    "tipo": "SUJETOS",
     "pregunta": "¿Quién es Gils Carbó?",
     "opciones": [
       "Fiscal de la Nación",
@@ -111,22 +121,26 @@
       "Procuradora General de la Nación"
     ],
     "respuesta": "Procuradora General de la Nación",
+    "sugerencias": { "Argentina-Autoridades Nacionales": "http://www.argentina.gob.ar/pais/65-autoridades-nacionales.php"},
     "nivel": 2
-  },
-  {
-    "tipo": "quién",
-    "pregunta": "¿Quién dijo \"me quiero ir\" al ser consultado por la inflación argentina?",
+  },    
+  
+{
+    "tipo": "DECLARACIONES",
+    "pregunta": "¿Quién dijo \"me quiero ir\" al consultarle por la inflación argentina?",
     "opciones": [
       "Lorenzino",
       "Hermes Binner",
       "Timerman"
     ],
     "respuesta": "Lorenzino",
+    "sugerencias" : {"Video #Lorenzino #ME QUIERO IR": "https://www.youtube.com/watch?v=EkHGLkCYnMY"},
     "nivel": 2
   },
-  {
-    "tipo": "quién",
-    "pregunta": "¿Hermes Binner es un Diputado Nacional de partido?",
+  
+{
+    "tipo": "SUJETOS",
+    "pregunta": "¿Hermes Binner es un Diputado Nacional de qué partido?",
     "opciones": [
       "Partido Justicialista",
       "Partido Obrero",
@@ -135,8 +149,9 @@
     "respuesta": "Partido Socialista",
     "nivel": 1
   },
-  {
-    "tipo": "quién",
+  
+{
+    "tipo": "DECLARACIONES",
     "pregunta": "¿Quien dijo \"Mi viejo me daba a cintazos y yo salí un buen tipo\"?",
     "opciones": [
       "Jorge Capitanich",
@@ -144,10 +159,12 @@
       "Miguel del Sel"
     ],
     "respuesta": "Miguel del Sel",
+    "sugerencias" : {"INFOBAE" : "http://www.infobae.com/2015/05/05/1726653-del-sel-mi-viejo-me-metia-unos-cintazos-espectaculares-y-yo-sali-buen-tipo"},
     "nivel": 2
   },
-  {
-    "tipo": "quién",
+  
+{
+    "tipo": "DECLARACIONES",
     "pregunta": "¿Juan Schiaretti aseguró que si gana las elecciones no derogará la ley que difiere el pago de aumento a las jubilaciones?",
     "opciones": [
       "Verdadero",
@@ -156,8 +173,9 @@
     "respuesta": "falso",
     "nivel": 2
   },
-  {
-    "tipo": "quién",
+  
+{
+    "tipo": "DECLARACIONES",
     "pregunta": "¿Eduardo Acastello aseguró que, si gana la gobernación en Córdoba, eliminará la figura del \"merodeo\" del Código de Faltas?",
     "opciones": [
       "Verdadero",
@@ -166,8 +184,9 @@
     "respuesta": "verdadero",
     "nivel": 2
   },
-  {
-    "tipo": "quién",
+  
+{
+    "tipo": "SUJETOS",
     "pregunta": "¿Quién es el candidato a gobernador de 'Córdoba Podemos'?",
     "opciones": [
       "Eduardo Acastello",
@@ -177,8 +196,9 @@
     "respuesta": "Acastello",
     "nivel": 2
   },
-  {
-    "tipo": "quién",
+  
+{
+    "tipo": "SUJETOS",
     "pregunta": "Sofía Gatica integra la fórmula del MST para la intendencia de la ciudad de Córdoba",
     "opciones": [
       "Verdadero",
@@ -187,9 +207,10 @@
     "respuesta": "falso",
     "nivel": 2
   },
-  {
-    "tipo": "quién",
-    "pregunta": "¿Quién dijo lo siguiente?:\n \"Desafío a los otros candidatos (a gobernador)  a firmar un acta para derogar la 10.078 y la tasa vial. Mañana yo voy a firmar un acta compromiso con los gremios.\" ",
+  
+{
+    "tipo": "DECLARACIONES",
+    "pregunta": "¿Quién dijo: \"Desafío a los otros candidatos (a gobernador)  a firmar un acta para derogar la 10.078 y la tasa vial. Mañana yo voy a firmar un acta compromiso con los gremios.\" ",
     "opciones": [
       "Juan Schiaretti",
       "Eduardo Acastello",
@@ -199,29 +220,9 @@
     "respuesta": "",
     "nivel": 2
   },
-  {
-    "tipo": "quién",
-    "pregunta": "Martín Llaryora es el candidato a vice gobernador de Unión por Córdoba. El dirigente fue intendente de Villa María ",
-    "opciones": [
-      "Verdadero",
-      "Falso"
-    ],
-    "respuesta": "falso",
-    "nivel": 1
-  },
-  {
-    "tipo": "qué",
-    "pregunta": "¿Qué se vota en Córdoba el 5 de julio?",
-    "opciones": [
-      "gobernador, vice y legisladores",
-      "gobernador, vice y concejales",
-      "gobernador"
-    ],
-    "respuesta": "gobernador, vice y legisladores",
-    "nivel": 1
-  },
-  {
-    "tipo": "qué",
+  
+{
+    "tipo": "ELECCIONES",
     "pregunta": "El resultado de las PASO, ¿define quienes ocuparán cargos en el Congreso? ",
     "opciones": [
       "Verdadero",
@@ -230,7 +231,8 @@
     "respuesta": "Falso",
     "nivel": 1
   },
-  {
+  
+{
     "tipo": "qué",
     "pregunta": "¿Cuál de los siguientes políticos NO es precandidato para las elecciones argentinas 2015? ",
     "opciones": [
@@ -241,8 +243,9 @@
     "respuesta": "Máximo Kirchner",
     "nivel": 1
   },
-  {
-    "tipo": "qué",
+  
+{
+    "tipo": "ELECCIONES",
     "pregunta": "¿Para qué sirven las PASO? ",
     "opciones": [
       "Para definir los gobernates",
@@ -252,7 +255,8 @@
     "respuesta": "Para elegir a los candidatos al interior de los partidos políticos",
     "nivel": 1
   },
-  {
+  
+{
     "tipo": "qué",
     "pregunta": "¿Qué candidato NO participo en 'Bailando 2015'? ",
     "opciones": [
@@ -263,8 +267,9 @@
     "respuesta": "Ernesto Sanz",
     "nivel": 1
   },
-  {
-    "tipo": "qué",
+  
+{
+    "tipo": "DECLARACIONES",
     "pregunta": "¿Quien propuso, en caso de ser elegido, dejar sin efecto la restriccion a la compra de dólares? ",
     "opciones": [
       "Massa",

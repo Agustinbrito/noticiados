@@ -62,37 +62,48 @@
                 {{ pregunta.pregunta }}
 				</div>
 			</div>
-            <div class="row clearfix" style="text-align: center">
-                {% if correcta %}
-                <div class="col-md-12 column correcta">
-                {{ respuesta }}
-                </div>                    
+      <div class="row clearfix" style="text-align: center">
+      {% for opcion in pregunta.opciones %}
+        <div class="col-md-4 column">
+            {% if opcion == respuesta %}
+              {% if correcta  %}
+              <div class="opcioncorrecta">
+              {% else %}
+              <div class="opcionincorrecta">
+              {% endif %}    
+            {% else %}
+            <div class="opcion">
+            {% endif %} 
+            {{ opcion }}
+            </div>
+          </div>
+      {% endfor %}            
+      </div>
+
+      <div class="row clearfix" style="text-align: center">
+                {% if correcta %}                   
                 <div class="col-md-12 column correcta">
                 ¡Bien ahí!
                 </div>   
                 {% else %} 
                 <div class="col-md-12 column incorrecta">
-                {{ respuesta }}
-                </div>                    
-                <div class="col-md-12 column incorrecta">
                 ¡Para atrás!
                 </div>                    
-                {% endif %}
-                
+                {% endif %}                
 			</div>
-            <div class="row clearfix" style="text-align: center">
-                <div class="col-md-12 column">
-                    {% if fin %}
-                    <a href="/end/" class="seguir">
-                    Seguir
-                    </a>
-                    {% else %}
-                    <a href="/preguntando/" class="seguir">
-                    Seguir
-                    </a>
-                    {% endif %}   
-                </div>
-            </div>            
+      <div class="row clearfix" style="text-align: center">
+          <div class="col-md-12 column">
+              {% if fin %}
+              <a href="/end/" class="seguir">
+              Seguir
+              </a>
+              {% else %}
+              <a href="/preguntando/" class="seguir">
+              Seguir
+              </a>
+              {% endif %}   
+          </div>
+      </div>            
 		</div>
 	</div>
 </div>
