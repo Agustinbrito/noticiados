@@ -29,6 +29,7 @@ def respuesta(request, respuesta):
     correcta = bool(respuesta.lower() == pregunta["respuesta"].lower())
     if not correcta:
         state['vidas'] -= 1
+        state['vidas_string'] = ['', '❤', '❤ ❤'][state['vidas']]
     state['correctas'].append(correcta) 
 
     fin = bool(len(state['correctas']) == N_PREGS_POR_NIVEL or

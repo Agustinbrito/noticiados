@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import os
 import simplejson as json
 from copy import deepcopy
@@ -26,7 +28,8 @@ ESTADO_INICIAL = {
             'vidas': 3,
             'nivel': 1,
             'pregunta': -1,
-            'correctas': []
+            'correctas': [],
+            'vidas_string': '❤ ❤ ❤'
         }
 
 def init_state():
