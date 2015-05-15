@@ -296,3 +296,16 @@ body {
     text-shadow:0px 1px 0px #528ecc;
     text-align: center;
 }
+
+
+.opcion a {
+    /*color: #FFFFFF;*/
+    color:#333333;
+    text-decoration: none;
+}
+
+.pregunta a {
+    /*color: #FFFFFF;*/
+    color:#333333;
+    text-decoration: none;
+}

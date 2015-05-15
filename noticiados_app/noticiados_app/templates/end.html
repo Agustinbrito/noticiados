@@ -75,10 +75,10 @@
                 {% endif %} 
 			</div>
 			<div class="row clearfix texto" style="text-align: center">
-                Le erraste en todas estas:
+                Le erraste en estas:
                 {% for pregunta in incorrectas %}
-                <div class="col-md-12 column">
-                <a href="{{ pregunta.tip }}" class="pregunta">{{ pregunta.pregunta }}</a>
+                <div class="col-md-12 column pregunta">
+                <a href="{{ pregunta.tip }}">{{ pregunta.pregunta }}</a>
                 </div>
                 {% endfor %}              
 			</div>
