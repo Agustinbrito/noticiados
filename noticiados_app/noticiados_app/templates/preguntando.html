@@ -65,7 +65,9 @@
 			<div class="row clearfix" style="text-align: center">
             {% for opcion in pregunta.opciones %}
 				<div class="col-md-4 column opcion">
-				{{ opcion }}
+				<a href="/preguntando/{{ forloop.counter0 }}/">
+                {{ opcion }}
+                </a>
                 </div>
             {% endfor %}            
 			</div>

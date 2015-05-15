@@ -2,38 +2,26 @@
 # -*- coding: utf-8 -*-
 from django.http import HttpResponse
 from django.shortcuts import render
+from models import *
 
-import os
-import simplejson as json
 
-from random import shuffle
-from settings import PROJECT_DIR
-
-PREGUNTAS_PATH = os.path.join(PROJECT_DIR, "preguntas.json")
-PREGUNTAS = json.load(open(PREGUNTAS_PATH))
-shuffle(PREGUNTAS)
-
-PREGUNTAS_NIVEL = [
-    [p for p in PREGUNTAS if p['nivel']==1],
-    [p for p in PREGUNTAS if p['nivel']==2]
-]
-
-N_PREGS_POR_NIVEL = 5
-
-ESTADO_INICIAL = {
-            'vidas': 3,
-            'nivel': 1,
-            'pregunta': 0
-        }
-
+#  Vistas
 def start(request):
+    init_state()
     return render(request, 'start.html', {})
 
-def preguntando(request, estado=ESTADO_INICIAL):
-    pregunta = PREGUNTAS[estado['pregunta']]
+def preguntando(request, respuesta=None):
+    # Si respuesta es no nulo
+    # viene de una pregunta anterior (ver state)
+    state =  get_state()
+    if respuesta:
+        pregunta = PREGUNTAS[state['pregunta']]
+        correcta = bool(pregunta["opciones"][int(respuesta)] == pregunta["respuesta"])
 
-    estado['pregunta'] += 1
-    return render(request, 'preguntando.html', {'pregunta': pregunta, 'estado': estado})
+    state['pregunta'] += 1
+    pregunta = PREGUNTAS[state['pregunta']]
+    save_state(state)
+    return render(request, 'preguntando.html', {'pregunta': pregunta, 'state': state})
 
 def end(request):
     return render(request, 'end.html', {})
