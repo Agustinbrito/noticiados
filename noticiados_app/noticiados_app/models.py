@@ -39,3 +39,10 @@ def get_state():
 
 def save_state(state):
     json.dump(state, open(STATE_PATH, 'w'))
+
+def proxima_pregunta(state):
+    state['pregunta'] += 1
+    return PREGUNTAS_NIVEL[state['nivel']][state['pregunta']]
+
+def pregunta_actual(state):
+    return PREGUNTAS_NIVEL[state['nivel']][state['pregunta']]

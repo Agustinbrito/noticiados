@@ -15,8 +15,7 @@ def preguntando(request, respuesta=None):
     # Si respuesta es no nulo
     # viene de una pregunta anterior (ver state)
     state =  get_state()
-    state['pregunta'] += 1
-    pregunta = PREGUNTAS[state['pregunta']]
+    pregunta = proxima_pregunta(state)
     save_state(state)
     return render(request, 'preguntando.html', {'pregunta': pregunta, 'state': state})
 
@@ -24,7 +23,7 @@ def respuesta(request, respuesta):
     # Si respuesta es no nulo
     # viene de una pregunta anterior (ver state)
     state =  get_state()
-    pregunta = PREGUNTAS[state['pregunta']]
+    pregunta = pregunta_actual(state)
 
     respuesta = pregunta["opciones"][int(respuesta)]
     correcta = bool(respuesta.lower() == pregunta["respuesta"].lower())
