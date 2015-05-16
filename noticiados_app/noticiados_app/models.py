@@ -21,7 +21,7 @@ shuffle(PREGUNTAS)
 
 PREGUNTAS_NIVEL = [PREGUNTAS, PREGUNTAS]
 
-N_PREGS_POR_NIVEL = 5
+N_PREGS_POR_NIVEL = 10
 
 
 # Estados
@@ -36,6 +36,7 @@ ESTADO_INICIAL = {
         }
 
 def init_state():
+    shuffle(PREGUNTAS)
     state = deepcopy(ESTADO_INICIAL)
     save_state(state)
     return state

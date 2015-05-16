@@ -99,7 +99,7 @@
     },
     {
         "tipo": "QUIEN LO DIJO?",
-        "pregunta": "¿Quién dijo \"me quiero ir\" al consultarle por la inflación argentina?",
+        "pregunta": "¿Quién dijo \"me quiero ir\" al ser consultado por la inflación argentina?",
         "opciones": [
             "Lorenzino",
             "Hermes Binner",
@@ -224,7 +224,7 @@
     },
     {
         "tipo": "IDENTIKIT",
-        "pregunta": "Qué candidato a Presidente NO participó 'Bailando 2015'? ",
+        "pregunta": "Qué candidato a Presidente NO participó del 'Bailando 2015'? ",
         "opciones": [
             "Scioli",
             "Randazzo",
