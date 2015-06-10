@@ -4,3 +4,5 @@ noticiados_app/state.json
 *.pyc
 local_settings.py
 noticiados_app/static/*
+.pyc
+*.pyc
