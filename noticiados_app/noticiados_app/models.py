@@ -6,6 +6,7 @@ from copy import deepcopy
 from random import shuffle
 import simplejson as json
 from settings import PROJECT_DIR
+#import settings.py
 
 
 # Preguntas
